@@ -5,7 +5,7 @@ public class Main {
         result = Solution.twoSum(input, 17);
 
         for (int i : result)
-            System.out.println(i);
+            System.out.printf("%d ", i);
     }
 }
 
