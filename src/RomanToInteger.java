@@ -1,3 +1,8 @@
+/*
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Given a roman numeral, convert it to an integer.
+*/
+
 public class RomanToInteger {
     public static void main(String[] args) {
         System.out.println(SolutionRTI.romanToInt("MCMXCIV"));
@@ -6,13 +11,11 @@ public class RomanToInteger {
 
 class SolutionRTI {
     public static int romanToInt(String s) {
-
         int[] romanNumbers = {1, 5, 10, 50, 100, 500, 1000};
         StringBuilder sIndex = new StringBuilder();
         int number = 0;
 
         for (int i = 0; i < s.length(); i++) {
-
             switch (s.charAt(i)) {
                 case 'I':
                     sIndex.append(0);
@@ -41,6 +44,7 @@ class SolutionRTI {
         for (int i = 0; i < s.length(); i++) {
             int a, b;
             a = Character.getNumericValue(sIndex.charAt(i));
+
             if ((i + 1) < s.length()) {
                 b = Character.getNumericValue(sIndex.charAt(i + 1));
             } else {
@@ -53,7 +57,6 @@ class SolutionRTI {
                 number -= romanNumbers[a];
             }
         }
-
         return number;
     }
 }
