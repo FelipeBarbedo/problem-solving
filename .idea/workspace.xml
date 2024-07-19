@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c128bffa-e85e-4249-b563-1b9f47dc59b1" name="Changes" comment="Changing class name.">
-      <change afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
+    <list default="true" id="c128bffa-e85e-4249-b563-1b9f47dc59b1" name="Changes" comment="Solving Roman to Integer problem.">
+      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FelipeBarbedo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FelipeBarbedo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FelipeBarbedo/problem-solving.git",
-    "accountId": "f4c2c547-95ba-461b-9914-3754b7e869ae"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FelipeBarbedo/problem-solving.git&quot;,
+    &quot;accountId&quot;: &quot;f4c2c547-95ba-461b-9914-3754b7e869ae&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jPqFj4JUEFtyovj8a0PV5F5s1j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +48,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -56,7 +56,7 @@
     "onboarding.tips.debug.path": "C:/Users/felip/IdeaProjects/problem-solving/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
+  <component name="RunManager" selected="Application.RomanToInteger">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="problem-solving" />
@@ -71,8 +71,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
+      <module name="problem-solving" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721303093580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solving Palindrome Number problem.">
+      <option name="closed" value="true" />
+      <created>1721305502618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721305502618</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +154,8 @@
     <MESSAGE value="Changing print." />
     <MESSAGE value="Adding problem description." />
     <MESSAGE value="Changing class name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing class name." />
+    <MESSAGE value="Solving Palindrome Number problem." />
+    <MESSAGE value="Solving Roman to Integer problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solving Roman to Integer problem." />
   </component>
 </project>
