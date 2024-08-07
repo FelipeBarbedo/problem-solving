@@ -1,5 +1,10 @@
 import java.util.Stack;
 
+/*
+Given a string s containing just the characters '(', ')',
+'{', '}', '[' and ']', determine if the input string is valid.
+ */
+
 public class ValidParentheses {
     public static void main(String[] args) {
         String s = "(){";
